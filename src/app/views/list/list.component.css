@@ -1,0 +1,36 @@
+#poke-filter{
+  margin-left: 20px;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.selected-pkm{
+  position: fixed;
+  background-color: rgba(61, 61, 61, 0.7);
+  width: 150px;
+  height: 150px;
+  left: 1.2%;
+  top: 20%;
+  border-radius: 15px;
+}
+
+.poke-list{
+  list-style-type: none;
+  font-family: Verdana;
+  margin-left: 150px;
+}
+
+.poke-list-item{
+  padding: 8px;
+  display: inline-flex;
+  border-radius: 25px;
+  margin: 3px;
+  background-color: rgba(61, 61, 61, 0.7);
+  width: 90%;
+  cursor: pointer;
+  color: white;
+}
+.poke-list-item span{
+  margin-top: 5px;
+}
+
